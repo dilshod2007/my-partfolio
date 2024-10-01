@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import ConnectedDots from "./ConnectedDots";
+import ConnectedDots from "./ConnectedDots.jsx";
 import "../header/header.css";
 import cv from "../../assets/cv.pdf";
 
