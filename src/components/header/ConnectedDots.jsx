@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./connectedDots.css";
+import "../header/ConnectedDots.css";
 
 const ConnectedDots = () => {
   const canvasRef = useRef(null);
