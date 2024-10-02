@@ -60,7 +60,7 @@ const Skillset = () => {
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg">  <GrWindows className=" w-[70px] h-[80px] text-white" /></div>
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg"><SiNetlify className="w-[70px] h-[80px] text-white" /></div>
             </div>
-           
+
         </div>
     );
 }

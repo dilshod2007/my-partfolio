@@ -3,7 +3,7 @@ import "../header/ConnectedDots.css";
 
 const ConnectedDots = () => {
   const canvasRef = useRef(null);
-  const dotsArray = useRef([]); // Используем useRef для сохранения состояния точек
+  const dotsArray = useRef([]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -12,15 +12,15 @@ const ConnectedDots = () => {
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      createDots(); // Пересоздаём точки при изменении размера экрана
+      createDots();
     };
 
     const createDots = () => {
       dotsArray.current = [];
-      const numDots = Math.floor((canvas.width * canvas.height) / 5000); // Количество точек пропорционально размеру экрана
+      const numDots = Math.floor((canvas.width * canvas.height) / 5000);
 
       for (let i = 0; i < numDots; i++) {
-        const radius = Math.random() * 2 + 0.5; // Уменьшили размер точек
+        const radius = Math.random() * 2 + 0.5;
         const x = Math.random() * canvas.width;
         const y = Math.random() * canvas.height;
         dotsArray.current.push(new Dot(x, y, radius));
@@ -32,7 +32,7 @@ const ConnectedDots = () => {
         this.x = x;
         this.y = y;
         this.radius = radius;
-        this.dx = (Math.random() - 0.5) * 0.5; // Скорость движения точек
+        this.dx = (Math.random() - 0.5) * 0.5;
         this.dy = (Math.random() - 0.5) * 0.5;
       }
 
@@ -47,7 +47,6 @@ const ConnectedDots = () => {
         this.x += this.dx;
         this.y += this.dy;
 
-        // Отскакивание от стен
         if (this.x < 0 || this.x > canvas.width) this.dx = -this.dx;
         if (this.y < 0 || this.y > canvas.height) this.dy = -this.dy;
 
@@ -61,13 +60,13 @@ const ConnectedDots = () => {
       requestAnimationFrame(animate);
     };
 
-    handleResize(); // Устанавливаем начальные размеры
-    window.addEventListener("resize", handleResize); // Добавляем обработчик изменения размера
+    handleResize();
+    window.addEventListener("resize", handleResize);
 
     animate();
 
     return () => {
-      window.removeEventListener("resize", handleResize); // Очищаем обработчик при размонтировании компонента
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 

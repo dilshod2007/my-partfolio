@@ -1,3 +1,4 @@
+import { AiOutlineDownload } from "react-icons/ai";
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import ConnectedDots from "./ConnectedDots.jsx";
@@ -9,8 +10,8 @@ const Header = () => {
     <>
       <ConnectedDots className="" />
 
-      <div className="relative text-center z-10 flex items-center justify-center gap-[100px] max-w-[1550px] mx-auto mt-[0px]">
-        
+      <div className="relative text-center z-10 flex items-center justify-center gap-[100px] max-w-[1550px] mx-auto mt-[50px]">
+
         <div className='max-w-7xl text-left'>
           <h1 className="text-5xl font-bold text-white">
             Hi There! <span className="mave" aria-labelledby="mave">👋</span>
@@ -37,18 +38,21 @@ const Header = () => {
           </h2>
 
           <div className="mt-[80px]">
-            <a 
-              href={cv} 
-              download="Dilshod_Umbarov_CV.pdf" 
-              className="bg-[#cd5ff8] text-white px-6 py-3 rounded-md hover:bg-[#9b3bcc] transition-colors"
-            >
-              Download CV
-            </a>
+          <a
+  href={cv}
+  download="Dilshod_Umbarov_CV.pdf"
+  className="bg-gradient-to-r from-[#cd5ff8] to-[#3e0552] ml-[0px] w-[160px] text-white px-4 py-2 rounded-md shadow-md hover:shadow-[0_0_15px_#cd5ff8] transition-all duration-300 ease-in-out transform hover:scale-102 flex items-center gap-2"
+>
+<AiOutlineDownload className="text-lg " />
+  <span>Download CV</span>
+</a>
+
+
           </div>
         </div>
-        
+
         <div className=''>
-        <img className='w-[450px] md:w-[500px] lg:w-[600px]' src="https://my-portfolio-umber-psi-41.vercel.app/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg" alt="Banner" />
+          <img className='w-[450px] md:w-[500px] lg:w-[600px]' src="https://my-portfolio-umber-psi-41.vercel.app/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg" alt="Banner" />
         </div>
       </div>
     </>

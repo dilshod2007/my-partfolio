@@ -1,6 +1,6 @@
-import { SiTelegram } from "react-icons/si"; 
-import { BsLinkedin } from "react-icons/bs"; 
-import { AiFillGithub } from "react-icons/ai"; 
+import { SiTelegram } from "react-icons/si";
+import { BsLinkedin } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 import React from 'react';
 import banner from "../../assets/about.png";
 
