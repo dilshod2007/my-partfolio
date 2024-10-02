@@ -7,6 +7,8 @@ import weather from "../../assets/weather.png"
 import fabrx from "../../assets/fabrx.png" 
 import medium from "../../assets/medium.png"
 import cargo from "../../assets/cargo.png"
+import me from "../../assets/me.png"
+import morent from "../../assets/morent.png"
 
 const Projects = () => {
   return (
@@ -21,7 +23,7 @@ const Projects = () => {
         <br /><br />
         <div className="grid grid-cols-3 gap-[50px]">
           <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
-            <img src={ebay} alt="Ebay Project" className="w-[400px] object-cover " />
+            <img src={ebay} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
 
             <h1 className="text-xl font-semibold mt-4 text-center">Ebay</h1>
 
@@ -101,32 +103,32 @@ const Projects = () => {
             </div>
           </div>
           <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
-            <img src={ebay} alt="Ebay Project" className="w-[400px] object-cover " />
+            <img src={me} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
 
-            <h1 className="text-xl font-semibold mt-4 text-center">Ebay</h1>
+            <h1 className="text-xl font-semibold mt-4 text-center">Hire me </h1>
 
             <div className="flex justify-center  mt-8">
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://github.com/dilshod2007/10-day-translate-page.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <AiOutlineGithub className="text-xl" />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://10-day-translate-page.vercel.app/" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <SiVercel className="text-xl" />
                 <span>vercel</span>
               </a>
             </div>
           </div>
           <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
-            <img src={ebay} alt="Ebay Project" className="w-[400px] object-cover " />
+            <img src={morent} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
 
-            <h1 className="text-xl font-semibold mt-4 text-center">Ebay</h1>
+            <h1 className="text-xl font-semibold mt-4 text-center">Morent</h1>
 
             <div className="flex justify-center  mt-8">
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://github.com/dilshod2007/day-8.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <AiOutlineGithub className="text-xl" />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://day-8-liard.vercel.app/" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <SiVercel className="text-xl" />
                 <span>vercel</span>
               </a>
