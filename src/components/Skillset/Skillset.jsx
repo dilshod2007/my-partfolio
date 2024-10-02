@@ -1,9 +1,9 @@
+import { SiVisualstudiocode } from "react-icons/si"; 
+import { TbBrandNextjs } from "react-icons/tb"; 
 import { SiVercel } from "react-icons/si";
 import { SiNetlify } from "react-icons/si";
 import { GrWindows } from "react-icons/gr";
-import { SiVisualstudio } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
-import { SiVisualstudiocode } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { DiJsBadge } from "react-icons/di";
@@ -48,14 +48,14 @@ const Skillset = () => {
                         <SiRedux className="w-[70px] h-[100px] text-white" />
                     </div>
                     <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg">
-                        <SiVisualstudiocode className="w-[70px] h-[100px] text-white" />
+                        <TbBrandNextjs className="w-[70px] h-[100px] text-white" />
                     </div>
                 </div>
             </div>
 
             <h1 className="text-5xl font-bold text-center text-[#cd5ff8] mt-[140px]">Tools <span className="text-white">| use</span></h1>
             <div className="flex align-center text-center justify-center justify-items-center mt-[100px] max-w-[1400px] mx-auto ">
-                <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg" ><SiVisualstudio className="w-[70px] h-[80px] text-white" /></div>
+                <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg" ><SiVisualstudiocode className="w-[70px] h-[80px] text-white"/></div>
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg"><SiVercel className="w-[70px] h-[80px] text-white" /></div>
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg">  <GrWindows className=" w-[70px] h-[80px] text-white" /></div>
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg"><SiNetlify className="w-[70px] h-[80px] text-white" /></div>

@@ -6,6 +6,7 @@ import ConnectedDots from "../header/ConnectedDots.jsx";
 import weather from "../../assets/weather.png"
 import fabrx from "../../assets/fabrx.png" 
 import medium from "../../assets/medium.png"
+import cargo from "../../assets/cargo.png"
 
 const Projects = () => {
   return (
@@ -77,23 +78,23 @@ const Projects = () => {
                 <AiOutlineGithub className="text-xl" />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://main-medium.vercel.app/" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <SiVercel className="text-xl" />
                 <span>vercel</span>
               </a>
             </div>
           </div>
           <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
-            <img src={ebay} alt="Ebay Project" className="w-[400px] object-cover " />
+            <img src={cargo} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
 
-            <h1 className="text-xl font-semibold mt-4 text-center">Ebay</h1>
+            <h1 className="text-xl font-semibold mt-4 text-center">Cargo</h1>
 
             <div className="flex justify-center  mt-8">
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://github.com/dilshod2007/pags.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <AiOutlineGithub className="text-xl" />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://pags.vercel.app/" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <SiVercel className="text-xl" />
                 <span>vercel</span>
               </a>
