@@ -9,12 +9,13 @@ import medium from "../../assets/medium.png"
 import cargo from "../../assets/cargo.png"
 import me from "../../assets/me.png"
 import morent from "../../assets/morent.png"
+import wishlist from "../../assets/wishlest.png"
 
 const Projects = () => {
   return (
     <>
       <ConnectedDots />
-      <div className="mt-[100px] max-w-[1400px] mx-auto">
+      <div className="mt-[100px] max-w-[1400px] mx-auto p-[50px]">
         <div className="text-center">
           <h1 className="text-5xl font-bold text-white">My projects </h1>
           <br />
@@ -135,16 +136,16 @@ const Projects = () => {
             </div>
           </div>
           <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
-            <img src={ebay} alt="Ebay Project" className="w-[400px] object-cover " />
+            <img src={wishlist} alt="Ebay Project" className="w-[400px] object-cover h-[200px]  " />
 
-            <h1 className="text-xl font-semibold mt-4 text-center">Ebay</h1>
+            <h1 className="text-xl font-semibold mt-4 text-center">Wishlist</h1>
 
             <div className="flex justify-center  mt-8">
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://github.com/dilshod2007/TypeScript-Wishlist.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <AiOutlineGithub className="text-xl" />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://type-script-wishlist.vercel.app/" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <SiVercel className="text-xl" />
                 <span>vercel</span>
               </a>
