@@ -10,7 +10,12 @@ import cargo from "../../assets/cargo.png"
 import me from "../../assets/me.png"
 import morent from "../../assets/morent.png"
 import wishlist from "../../assets/wishlest.png"
-
+import plateform from "../../assets/plateform.png"
+import medikel from "../../assets/medikel.png"
+import shop from "../../assets/shop.png"
+import watch from "../../assets/watch.png"
+import studio from "../../assets/studio.png"
+import warplay from "../../assets/warplay.png"
 const Projects = () => {
   return (
     <>
@@ -152,16 +157,96 @@ const Projects = () => {
             </div>
           </div>
           <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
-            <img src={ebay} alt="Ebay Project" className="w-[400px] object-cover " />
+            <img src={plateform} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
 
-            <h1 className="text-xl font-semibold mt-4 text-center">Ebay</h1>
+            <h1 className="text-xl font-semibold mt-4 text-center">PLATEFORM</h1>
 
             <div className="flex justify-center  mt-8">
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://github.com/dilshod2007/PLATEFORM.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <AiOutlineGithub className="text-xl" />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+              <a href="https://plateform-kappa.vercel.app/" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <SiVercel className="text-xl" />
+                <span>vercel</span>
+              </a>
+            </div>
+          </div>
+          <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
+            <img src={medikel} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
+
+            <h1 className="text-xl font-semibold mt-4 text-center">Medikel</h1>
+
+            <div className="flex justify-center  mt-8">
+              <a href="https://github.com/dilshod2007/Medikel.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <AiOutlineGithub className="text-xl" />
+                <span>GitHub</span>
+              </a>
+              <a href="https://medikel.vercel.app" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <SiVercel className="text-xl" />
+                <span>vercel</span>
+              </a>
+            </div>
+          </div>
+          <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
+            <img src={shop} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
+
+            <h1 className="text-xl font-semibold mt-4 text-center">Shop</h1>
+
+            <div className="flex justify-center  mt-8">
+              <a href="https://github.com/dilshod2007/Shop.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <AiOutlineGithub className="text-xl" />
+                <span>GitHub</span>
+              </a>
+              <a href="https://shop-rho-vert.vercel.app" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <SiVercel className="text-xl" />
+                <span>vercel</span>
+              </a>
+            </div>
+          </div>
+          <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
+            <img src={watch} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
+
+            <h1 className="text-xl font-semibold mt-4 text-center">Watch Shop</h1>
+
+            <div className="flex justify-center  mt-8">
+              <a href="https://github.com/dilshod2007/Watch-Shop.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <AiOutlineGithub className="text-xl" />
+                <span>GitHub</span>
+              </a>
+              <a href="https://watch-shop-two.vercel.app/" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <SiVercel className="text-xl" />
+                <span>vercel</span>
+              </a>
+            </div>
+          </div>
+          <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
+            <img src={studio} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
+
+            <h1 className="text-xl font-semibold mt-4 text-center">STUDIO</h1>
+
+            <div className="flex justify-center  mt-8">
+              <a href="https://github.com/dilshod2007/STUDIO.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <AiOutlineGithub className="text-xl" />
+                <span>GitHub</span>
+              </a>
+              <a href="https://studio-weld-theta.vercel.app/" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <SiVercel className="text-xl" />
+                <span>vercel</span>
+              </a>
+            </div>
+          </div>
+          <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
+            <img src={warplay} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
+
+            <h1 className="text-xl font-semibold mt-4 text-center">warplay</h1>
+
+            <div className="flex justify-center  mt-8">
+              <a href="https://github.com/dilshod2007/warplay.git" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
+                <AiOutlineGithub className="text-xl" />
+                <span>GitHub</span>
+              </a>
+              <a href="https://warplay.vercel.app" className="flex items-center gap-2 p-2 bg-purple-700 rounded-lg hover:bg-purple-900 transition">
                 <SiVercel className="text-xl" />
                 <span>vercel</span>
               </a>
