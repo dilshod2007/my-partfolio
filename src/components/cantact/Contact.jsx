@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <div
       ref={contactRef}
-      className={`container mx-auto text-center px-2 py-2 mt-[140px] bg-gray-950 border-2 border-[#cd5ff8] w-[900px] rounded lg:rounded-lg h-[520px] mb-16 p-[50px] pb-8 transform transition-all duration-700 ease-in-out ${
+      className={`container mx-auto text-center px-2 py-2 mt-[140px] bg-gray-950 border-2 border-[#cd5ff8] w-[900px] rounded lg:rounded-lg h-[520px] shadow-[#cd5ff8] p-[50px]  transform transition-all duration-700 ease-in-out ${
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
       }`}
     >
