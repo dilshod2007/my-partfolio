@@ -12,7 +12,7 @@ const Header = () => {
 
       <div className="relative text-center z-10 flex items-center justify-center gap-[100px] max-w-[1550px] mx-auto mt-[50px]">
 
-        <div className='max-w-7xl text-left'>
+        <div className='max-w-[550px] text-left'>
           <h1 className="text-5xl font-bold text-white">
             Hi There! <span className="mave" aria-labelledby="mave">👋</span>
           </h1>
